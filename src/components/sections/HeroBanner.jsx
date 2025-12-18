@@ -10,17 +10,17 @@ import Link from "next/link";
 export default function HeroBanner({
   images = [
     {
-      src: "https://dummyimage.com/500x500/5d5d5d/737373",
+      src: "img/hero/banner-icon-1.webp",
       animationClass: "mxd-pulse",
       wrapperClass: "image-01",
     },
     {
-      src: "https://dummyimage.com/500x500/5d5d5d/737373",
+      src: "img/hero/banner-icon-2.webp",
       animationClass: "mxd-move",
       wrapperClass: "image-02",
     },
     {
-      src: "https://dummyimage.com/500x500/5d5d5d/737373",
+      src: "img/hero/banner-icon-3.webp",
       animationClass: "mxd-rotate",
       wrapperClass: "image-03",
     },
@@ -35,7 +35,7 @@ export default function HeroBanner({
     href: "#projects",
     text: "Scroll for More * Scroll for More * Scroll for More * ",
     sizeClass: "btn-rotating-120-160",
-    image: "https://dummyimage.com/100x100/5d5d5d/737373",
+    image: "img/icons/rotating-icon.webp",
   },
 
   socials = [

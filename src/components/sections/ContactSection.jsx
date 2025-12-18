@@ -62,7 +62,7 @@ export default function ContactSection() {
                 <div className="mxd-promo__content">
                   <p className="mxd-promo__title anim-uni-in-up">
                     <span className="mxd-promo__icon">
-                      <img src="https://dummyimage.com/100x100/838383/5d5d5d" alt="Icon" />
+                      <img src="img/contact/top.webp" alt="Icon" />
                     </span>
                     <span className="mxd-promo__caption reveal-type">Let's talk about your project!</span>
                   </p>
@@ -74,8 +74,8 @@ export default function ContactSection() {
                   </div>
                 </div>
                 <div className="mxd-promo__images">
-                  <img className="promo-image promo-image-1" src="https://dummyimage.com/600x600/5d5d5d/838383" alt="Image" />
-                  <img className="promo-image promo-image-2" src="https://dummyimage.com/300x300/5d5d5d/838383" alt="Image" />
+                  <img className="promo-image promo-image-1" src="img/contact/large.webp" alt="Image" />
+                  <img className="promo-image promo-image-2" src="img/contact/small.webp" alt="Image" />
                 </div>
               </div>
             </div>

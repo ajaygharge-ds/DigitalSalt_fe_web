@@ -24,28 +24,28 @@ const detailsItems = [
     title: "Some article on Medium",
     year: "2025",
     tags: ["UI/UX", "Development"],
-    preview: "https://dummyimage.com/500x500/5d5d5d/737373",
+    preview: "img/hover/1.webp",
     link: "/project-details",
   },
   {
     title: "Awwwards nomination",
     year: "2024",
     tags: ["UI/UX", "Frontend"],
-    preview: "https://dummyimage.com/500x500/5d5d5d/737373",
+    preview: "img/hover/2.webp",
     link: "/project-details",
   },
   {
     title: "Behance curated work",
     year: "2024",
     tags: ["Illustrations", "Graphic design"],
-    preview: "https://dummyimage.com/500x500/5d5d5d/737373",
+    preview: "img/hover/3.webp",
     link: "/project-details",
   },
   {
     title: "Article on Medium",
     year: "2024",
     tags: ["UI/UX", "Frontend"],
-    preview: "https://dummyimage.com/500x500/5d5d5d/737373",
+    preview: "img/hover/4.webp",
     link: "/project-details",
   },
 ];
@@ -66,7 +66,7 @@ const statsData = [
       anim: "slide-right-up opposite",
       icon: "ph-bold ph-arrow-up-right",
     },
-    image: "https://dummyimage.com/800x800/5d5d5d/737373",
+    image: "img/stats/stats-card-1.webp",
     imageClass: "mxd-stats-cards-image-1",
   },
 
@@ -78,8 +78,8 @@ const statsData = [
     value: 90,
     suffix: "%",
     label: "Clients come back for new projects",
-    avatars: [{img: "https://dummyimage.com/300x300/5d5d5d/737373"}, {type: "svg", icon: "star", bg: "bg-base-opp"}, {img: "https://dummyimage.com/300x300/5d5d5d/737373"}],
-    image: "https://dummyimage.com/800x800/5d5d5d/737373",
+    avatars: [{img: "img/stats/stats-prsn-1.webp"}, {type: "svg", icon: "star", bg: "bg-base-opp"}, {img: "img/stats/stats-prsn-2.webp"}],
+    image: "img/stats/stats-card-2.webp",
     imageClass: "mxd-stats-cards-image-2",
   },
 
@@ -96,7 +96,7 @@ const statsData = [
       anim: "slide-right-down",
       icon: "ph-bold ph-arrow-down-right",
     },
-    image: "https://dummyimage.com/800x800/5d5d5d/737373",
+    image: "img/stats/stats-card-3.webp",
     imageClass: "mxd-stats-cards-image-3",
   },
 
@@ -113,7 +113,7 @@ const statsData = [
       anim: "slide-right-up",
       icon: "ph-bold ph-arrow-up-right",
     },
-    image: "https://dummyimage.com/800x800/5d5d5d/737373",
+    image: "img/stats/stats-card-4.webp",
     imageClass: "mxd-stats-cards-image-4",
   },
 ];
@@ -223,8 +223,8 @@ export default function Home() {
               btnClass: "btn-additional",
               tagStyle: "tag-outline-opposite",
               opposite: true,
-              imageSmall: "https://dummyimage.com/800x800/5d5d5d/737373",
-              imageLarge: "https://dummyimage.com/1000x1000/5d5d5d/737373",
+              imageSmall: "img/stack/stack-mobile-1.webp",
+              imageLarge: "img/stack/stack-desktop-1.webp",
             },
             {
               title: (
@@ -241,8 +241,8 @@ export default function Home() {
               btnClass: "btn-base",
               tagStyle: "tag-outline-opposite",
               opposite: true,
-              imageSmall: "https://dummyimage.com/800x800/5d5d5d/737373",
-              imageLarge: "https://dummyimage.com/1000x1000/5d5d5d/737373",
+              imageSmall: "img/stack/stack-mobile-2.webp",
+              imageLarge: "img/stack/stack-desktop-2.webp",
             },
             {
               title: (
@@ -259,8 +259,8 @@ export default function Home() {
               btnClass: "btn-opposite",
               tagStyle: "tag-outline",
               opposite: false,
-              imageSmall: "https://dummyimage.com/800x800/5d5d5d/737373",
-              imageLarge: "https://dummyimage.com/1000x1000/5d5d5d/737373",
+              imageSmall: "img/stack/stack-mobile-3.webp",
+              imageLarge: "img/stack/stack-desktop-3.webp",
             },
             {
               title: (
@@ -278,8 +278,8 @@ export default function Home() {
               btnClass: "btn-additional",
               tagStyle: "tag-outline-opposite",
               opposite: true,
-              imageSmall: "https://dummyimage.com/800x800/5d5d5d/737373",
-              imageLarge: "https://dummyimage.com/1000x1000/5d5d5d/737373",
+              imageSmall: "img/stack/stack-mobile-4.webp",
+              imageLarge: "img/stack/stack-desktop-4.webp",
             },
           ]}
         />
@@ -376,7 +376,7 @@ export default function Home() {
         <ClientTestimonialSection
           slides={[
             {
-              photo: "https://dummyimage.com/300x300/5d5d5d/737373",
+              photo: "img/testimonials/1.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "The Rayo team nailed it! They understood our vision.",
               projectLink: "project-details",
@@ -385,7 +385,7 @@ export default function Home() {
               company: "The Way",
             },
             {
-              photo: "https://dummyimage.com/300x300/5d5d5d/737373",
+              photo: "img/testimonials/2.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "Amazing experience working with Rayo!",
               projectLink: "project-details",
@@ -394,7 +394,7 @@ export default function Home() {
               company: "Instant Design",
             },
             {
-              photo: "https://dummyimage.com/300x300/5d5d5d/737373",
+              photo: "img/testimonials/3.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "The Rayo team nailed it! They understood our vision.",
               projectLink: "project-details",
@@ -403,7 +403,7 @@ export default function Home() {
               company: "The Way",
             },
             {
-              photo: "https://dummyimage.com/300x300/5d5d5d/737373",
+              photo: "img/testimonials/4.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "Amazing experience working with Rayo!",
               projectLink: "project-details",

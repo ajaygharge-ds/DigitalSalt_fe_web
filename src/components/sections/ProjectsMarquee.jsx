@@ -98,7 +98,7 @@ export default function ProjectMarquee() {
                 <div className="marquee__item image">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/top-1.webp" alt="Image" />
                   </Link>
                 </div>
                 <div className="marquee__item has-caption padding-4">
@@ -111,13 +111,13 @@ export default function ProjectMarquee() {
                 <div className="marquee__item">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/top-2.webp" alt="Image" />
                   </Link>
                 </div>
                 <div className="marquee__item">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/top-3.webp" alt="Image" />
                   </Link>
                 </div>
                 <div className="marquee__item has-caption padding-4">
@@ -130,7 +130,7 @@ export default function ProjectMarquee() {
                 <div className="marquee__item">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/top-4.webp" alt="Image" />
                   </Link>
                 </div>
               </div>
@@ -145,13 +145,13 @@ export default function ProjectMarquee() {
                 <div className="marquee__item">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/bottom-1.webp" alt="Image" />
                   </Link>
                 </div>
                 <div className="marquee__item">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/bottom-2.webp" alt="Image" />
                   </Link>
                 </div>
                 <div className="marquee__item has-caption padding-4">
@@ -164,13 +164,13 @@ export default function ProjectMarquee() {
                 <div className="marquee__item">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/bottom-3.webp" alt="Image" />
                   </Link>
                 </div>
                 <div className="marquee__item">
                   <Link className="marquee__link" href="/project-details">
                     {/* <Image src="https://dummyimage.com/1200x1200/5d5d5d/737373" width={1200} height={1200} alt="Image" /> */}
-                    <img src="https://dummyimage.com/1200x1200/5d5d5d/737373" alt="Image" />
+                    <img src="img/marquee/bottom-4.webp" alt="Image" />
                   </Link>
                 </div>
               </div>

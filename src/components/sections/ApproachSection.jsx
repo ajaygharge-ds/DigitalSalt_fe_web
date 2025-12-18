@@ -69,7 +69,7 @@ export default function ApproachSection() {
                     <div className="row gx-0">
                       <div className="col-12 col-xl-2 mxd-grid-item no-margin">
                         <div className="mxd-approach-list__image anim-uni-in-up">
-                          <img src="https://dummyimage.com/200x200/5d5d5d/737373" alt="Icon" />
+                          <img src={`img/approach/icon-${i + 1}.webp`} alt="Icon" />
                         </div>
                       </div>
 
