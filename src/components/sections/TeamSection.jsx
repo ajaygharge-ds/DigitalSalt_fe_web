@@ -144,7 +144,7 @@ export default function TeamSection({title, description, ctaText, ctaLink, membe
                             </div>
                           </div>
                         ) : (
-                          <div key={i} className="col-12 col-md-6 mxd-team-cards__item mxd-grid-item padding-bottom-mobile animate-card-3">
+                          <div key={i} className="col-12 col-md-6 col-xl-4 mxd-team-cards__item mxd-grid-item padding-bottom-mobile animate-card-3">
                             <div className="mxd-team-cards__media anim-uni-in-up">
                               <div className="mxd-team-cards__photo">
                                 {/* <Image src={item.image} width={800} height={920} alt={item.name} /> */}
