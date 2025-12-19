@@ -58,7 +58,7 @@ export default function StatsCardsSection({variant = "", stats}) {
                     <div className="mxd-avatars">
                       {item.avatars.map((avt, i) => (
                         <div key={i} className={`mxd-avatars__item ${avt.bg || ""}`}>
-                          {avt.type === "svg" ? ICON_MAP[avt.icon] : <img src={avt.img} width={300} height={300} alt="Avatar" />}
+                          {avt.type === "svg" ? ICON_MAP[avt.icon] : <Image src={avt.img} width={300} height={300} alt="Avatar" />}
                         </div>
                       ))}
                     </div>
@@ -85,8 +85,7 @@ export default function StatsCardsSection({variant = "", stats}) {
 
                 {/* Image */}
                 <div className={`mxd-stats-cards__image ${item.imageClass}`}>
-                  {/* <Image src={item.image} width={800} height={800} alt="Illustration" /> */}
-                  <img src={item.image} alt="Illustration" />
+                  <Image src={item.image} width={800} height={800} alt="Illustration" />
                 </div>
               </div>
             </div>

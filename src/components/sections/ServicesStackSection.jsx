@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ServicesStackSection({services = []}) {
@@ -38,8 +39,8 @@ export default function ServicesStackSection({services = []}) {
 
                       {/* IMAGE */}
                       <div className="services-stack__image">
-                        <img className="service-img service-img-s" src={item.imageSmall} alt="" />
-                        <img className="service-img service-img-m" src={item.imageLarge} alt="" />
+                        <Image className="service-img service-img-s" src={item.imageSmall} width={800} height={800} alt="" />
+                        <Image className="service-img service-img-m" src={item.imageLarge} width={1000} height={1000} alt="" />
                       </div>
                     </div>
                   </div>

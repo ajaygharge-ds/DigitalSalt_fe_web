@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ProjectsStackSection({projects = []}) {
@@ -13,8 +14,7 @@ export default function ProjectsStackSection({projects = []}) {
                   <div className="stack-item" key={index}>
                     <Link href={item.href || "/project-details"} className="mxd-projects-stack__inner justify-between">
                       <div className="mxd-projects-stack__image">
-                        <img className="mobile" src={item.imageMobile} alt="" />
-                        <img className="desktop" src={item.imageDesktop} alt="" />
+                        <Image className="desktop" src={item.imageDesktop} width={1920} height={1080} alt="" />
                       </div>
 
                       <div className="mxd-projects-stack__tags">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ShowcaseStackSection({showcases = []}) {
@@ -24,7 +25,7 @@ export default function ShowcaseStackSection({showcases = []}) {
                       <div className="mxd-services-stack__works">
                         {item.works.map((work, i) => (
                           <Link key={i} className="mxd-services-stack__work" href={work.href || "/project-details"}>
-                            <img className="mxd-services-stack__preview" src={work.image} alt="" />
+                            <Image className="mxd-services-stack__preview" src={work.image} width={800} height={400} alt="" />
                             <div className="mxd-services-stack__tags tags-absolute">
                               {work.tags.map((tag, j) => (
                                 <span key={j} className="tag tag-default tag-permanent">
@@ -34,7 +35,7 @@ export default function ShowcaseStackSection({showcases = []}) {
                             </div>
                             <div className="mxd-preview-hover">
                               <i className="mxd-preview-hover__icon icon-small">
-                                <img src="img/icons/icon-eye.svg" alt="Eye Icon" />
+                                <Image src="img/icons/icon-eye.svg" width={38} height={21} alt="Eye Icon" />
                               </i>
                             </div>
                           </Link>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 export default function RotatingButton({
@@ -26,7 +27,7 @@ export default function RotatingButton({
       </svg>
 
       {/* Icon or Image */}
-      {typeof image === "string" ? <img className="btn-rotating__image" src={image} alt="Object" /> : image}
+      {typeof image === "string" ? <Image className="btn-rotating__image" src={image} width={300} height={300} alt="Object" /> : image}
     </Link>
   );
 }

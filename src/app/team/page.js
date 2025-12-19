@@ -11,6 +11,7 @@ import MarqueeSection from "@/components/sections/MarqueeSection";
 import ParallaxSection from "@/components/sections/ParallaxSection";
 import TeamSection from "@/components/sections/TeamSection";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 const team = [
@@ -185,7 +186,7 @@ export default function Team() {
                       <div className="col-12 col-xl-7 mxd-testimonials-image__content mxd-grid-item no-margin">
                         <div className="mxd-testimonials-image__author" data-swiper-parallax-x={-50} data-swiper-parallax-opacity={0}>
                           <div className="mxd-testimonials-image__avatar">
-                            <img src="https://dummyimage.com/300x300/4d4d4d/838383" alt="Review Author" />
+                            <Image src="https://dummyimage.com/300x300/4d4d4d/838383" width={300} height={300} alt="Review Author" />
                           </div>
                           <div className="mxd-testimonials-image__info">
                             <h5 className="mxd-testimonials-image__name opposite">John Lemon</h5>
@@ -215,7 +216,7 @@ export default function Team() {
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-testimonials-image__img mxd-grid-item no-margin" data-swiper-parallax-x={-50} data-swiper-parallax-opacity={0}>
-                        <img src="https://dummyimage.com/1400x1400/4d4d4d/838383" alt="" />
+                        <Image src="https://dummyimage.com/1400x1400/4d4d4d/838383" width={1400} height={1400} alt="" />
                       </div>
                     </div>
                   </div>
@@ -228,7 +229,7 @@ export default function Team() {
                       <div className="col-12 col-xl-7 mxd-testimonials-image__content mxd-grid-item no-margin">
                         <div className="mxd-testimonials-image__author" data-swiper-parallax-x={-50} data-swiper-parallax-opacity={0}>
                           <div className="mxd-testimonials-image__avatar">
-                            <img src="https://dummyimage.com/300x300/4d4d4d/838383" alt="Review Author" />
+                            <Image src="https://dummyimage.com/300x300/4d4d4d/838383" width={300} height={300} alt="Review Author" />
                           </div>
                           <div className="mxd-testimonials-image__info">
                             <h5 className="mxd-testimonials-image__name opposite">Alex Tomato</h5>
@@ -258,7 +259,7 @@ export default function Team() {
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-testimonials-image__img mxd-grid-item no-margin" data-swiper-parallax-x={-50} data-swiper-parallax-opacity={0}>
-                        <img src="https://dummyimage.com/1400x1400/4d4d4d/838383" alt="" />
+                        <Image src="https://dummyimage.com/1400x1400/4d4d4d/838383" width={1400} height={1400} alt="" />
                       </div>
                     </div>
                   </div>

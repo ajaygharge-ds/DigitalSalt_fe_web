@@ -114,8 +114,8 @@ const ProjectsMasonry = ({
                       <h1 className={`inner-headline__title ${variant === "web" ? "reveal-type" : `${headlineClass}`} `}>{headlineTitle}</h1>
                     ) : (
                       <>
-                        <div class="mxd-section-title__title anim-uni-in-up">
-                          <h2 class="reveal-type">{sectionTitle}</h2>
+                        <div className="mxd-section-title__title anim-uni-in-up">
+                          <h2 className="reveal-type">{sectionTitle}</h2>
                         </div>
                         <div className="mxd-section-title__descr">
                           <p className="anim-uni-in-up">{sectionDesc}</p>

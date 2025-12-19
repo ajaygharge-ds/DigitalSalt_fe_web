@@ -102,8 +102,7 @@ export default function TeamSection({title, description, ctaText, ctaLink, membe
                         <div key={i} className="col-12 col-md-6 mxd-team-cards__item mxd-grid-item no-margin-desktop padding-bottom-mobile padding-bottom-desktop animate-card-3">
                           <div className="mxd-team-cards__media anim-uni-in-up">
                             <div className="mxd-team-cards__photo">
-                              {/* <Image src={member.image} width={800} height={920} alt={member.name} /> */}
-                              <img src={member.image} alt={member.name} />
+                              <Image src={member.image} width={800} height={920} alt={member.name} />
                             </div>
                             <div className="mxd-team-cards__socials">
                               {member.socials.map((s, j) => (
@@ -133,8 +132,7 @@ export default function TeamSection({title, description, ctaText, ctaLink, membe
                             <div className="mxd-team-cards__media no-margin overflow-visible anim-uni-in-up">
                               <Link className="mxd-team-cards__career" href="/contact">
                                 <div className="career__image">
-                                  {/* <Image src="https://dummyimage.com/600x600/5d5d5d/838383" width={600} height={600} alt="Career" /> */}
-                                  <img src="https://dummyimage.com/600x600/5d5d5d/838383" alt="Career" />
+                                  <Image src="https://dummyimage.com/600x600/5d5d5d/838383" width={600} height={600} alt="Career" />
                                 </div>
                                 <div className="career__caption">
                                   <p className="mxd-team-cards__name t-large t-bright t-caption">Maybe you?</p>
@@ -147,8 +145,7 @@ export default function TeamSection({title, description, ctaText, ctaLink, membe
                           <div key={i} className="col-12 col-md-6 col-xl-4 mxd-team-cards__item mxd-grid-item padding-bottom-mobile animate-card-3">
                             <div className="mxd-team-cards__media anim-uni-in-up">
                               <div className="mxd-team-cards__photo">
-                                {/* <Image src={item.image} width={800} height={920} alt={item.name} /> */}
-                                <img src={item.image} alt={item.name} />
+                                <Image src={item.image} width={800} height={920} alt={item.name} />
                               </div>
                               <div className="mxd-team-cards__socials">
                                 {item.socials.map((s, j) => (

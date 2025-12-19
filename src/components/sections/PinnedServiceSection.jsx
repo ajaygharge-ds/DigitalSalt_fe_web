@@ -4,6 +4,7 @@ import {useLayoutEffect} from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import {usePathname} from "next/navigation";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -95,7 +96,7 @@ export default function PinnedServicesSection({
                 <div className="mxd-pinned__img-list" role="list">
                   {images.map((img, index) => (
                     <div key={index} className="mxd-pinned__img-item" role="listitem">
-                      <img className="mxd-pinned__img" src={img} alt="Pinned Service" />
+                      <Image className="mxd-pinned__img" src={img} width={800} height={800} alt="Pinned Service" />
                     </div>
                   ))}
                 </div>
@@ -110,7 +111,7 @@ export default function PinnedServicesSection({
                     <div key={index} className="mxd-pinned__text-item" role="listitem">
                       {/* ✅ MOBILE IMAGE */}
                       <div className="mxd-pinned__img-mobile anim-uni-in-up">
-                        <img src={service.image} alt={service.title} />
+                        <Image src={service.image} width={800} height={800} alt={service.title} />
                       </div>
 
                       {/* ✅ TITLE */}

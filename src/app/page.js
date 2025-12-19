@@ -66,7 +66,7 @@ const statsData = [
       anim: "slide-right-up opposite",
       icon: "ph-bold ph-arrow-up-right",
     },
-    image: "img/stats/stats-card-1.webp",
+    image: "/img/stats/stats-card-1.webp",
     imageClass: "mxd-stats-cards-image-1",
   },
 
@@ -78,8 +78,8 @@ const statsData = [
     value: 90,
     suffix: "%",
     label: "Clients come back for new projects",
-    avatars: [{img: "img/stats/stats-prsn-1.webp"}, {type: "svg", icon: "star", bg: "bg-base-opp"}, {img: "img/stats/stats-prsn-2.webp"}],
-    image: "img/stats/stats-card-2.webp",
+    avatars: [{img: "/img/stats/stats-prsn-1.webp"}, {type: "svg", icon: "star", bg: "bg-base-opp"}, {img: "/img/stats/stats-prsn-2.webp"}],
+    image: "/img/stats/stats-card-2.webp",
     imageClass: "mxd-stats-cards-image-2",
   },
 
@@ -96,7 +96,7 @@ const statsData = [
       anim: "slide-right-down",
       icon: "ph-bold ph-arrow-down-right",
     },
-    image: "img/stats/stats-card-3.webp",
+    image: "/img/stats/stats-card-3.webp",
     imageClass: "mxd-stats-cards-image-3",
   },
 
@@ -113,7 +113,7 @@ const statsData = [
       anim: "slide-right-up",
       icon: "ph-bold ph-arrow-up-right",
     },
-    image: "img/stats/stats-card-4.webp",
+    image: "/img/stats/stats-card-4.webp",
     imageClass: "mxd-stats-cards-image-4",
   },
 ];

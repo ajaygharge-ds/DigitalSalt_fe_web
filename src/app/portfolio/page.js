@@ -10,6 +10,7 @@ import InnerPageHeadline from "@/components/sections/InnerPageHeadline";
 import MarqueeSection from "@/components/sections/MarqueeSection";
 import ProjectsStackSection from "@/components/sections/ProjectStackSection";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
@@ -190,7 +191,7 @@ export default function Portfolio() {
                               </div>
 
                               <div className="mxd-projects-list__image anim-uni-in-up">
-                                <img src={item.image} alt="" />
+                                <Image src={item.image} width={1200} height={800} alt="hover img" />
                               </div>
                             </div>
 
@@ -241,7 +242,7 @@ export default function Portfolio() {
                     <div className="col-12 col-lg-6 mxd-testimonials-photo__content mxd-grid-item no-margin">
                       <div className="mxd-testimonials-photo__author" data-swiper-parallax-x={-250} data-swiper-parallax-opacity={0}>
                         <div className="mxd-testimonials-photo__avatar">
-                          <img src="https://dummyimage.com/300x300/4d4d4d/838383" alt="Review Author" />
+                          <Image src="/img/testimonials/2.webp" width={300} height={300} alt="Review Author" />
                         </div>
                         <div className="mxd-testimonials-photo__info">
                           <h5 className="mxd-testimonials-photo__name">Alex Tomato</h5>
@@ -272,7 +273,7 @@ export default function Portfolio() {
                     </div>
                     <div className="col-12 col-lg-6 mxd-testimonials-photo__image mxd-grid-item no-margin fullheight-l" data-swiper-parallax-x={-450} data-swiper-parallax-opacity={0}>
                       <div className="mxd-testimonials-photo__image-inner radius-l fullheight-l">
-                        <img src="https://dummyimage.com/1400x1200/4d4d4d/838383" alt="Testimonials Image" />
+                        <Image src="https://dummyimage.com/1400x1200/4d4d4d/838383" width={1433} height={1200} alt="Testimonials Image" />
                       </div>
                     </div>
                   </div>
@@ -286,7 +287,7 @@ export default function Portfolio() {
                     <div className="col-12 col-lg-6 mxd-testimonials-photo__content mxd-grid-item no-margin">
                       <div className="mxd-testimonials-photo__author" data-swiper-parallax-x={-250} data-swiper-parallax-opacity={0}>
                         <div className="mxd-testimonials-photo__avatar">
-                          <img src="https://dummyimage.com/300x300/4d4d4d/838383" alt="Review Author" />
+                          <Image src="/img/testimonials/1.webp" width={300} height={300} alt="Review Author" />
                         </div>
                         <div className="mxd-testimonials-photo__info">
                           <h5 className="mxd-testimonials-photo__name">Alex Tomato</h5>
@@ -317,7 +318,7 @@ export default function Portfolio() {
                     </div>
                     <div className="col-12 col-lg-6 mxd-testimonials-photo__image mxd-grid-item no-margin fullheight-l" data-swiper-parallax-x={-450} data-swiper-parallax-opacity={0}>
                       <div className="mxd-testimonials-photo__image-inner radius-l fullheight-l">
-                        <img src="https://dummyimage.com/1400x1200/4d4d4d/838383" alt="Testimonials Image" />
+                        <Image src="https://dummyimage.com/1400x1200/4d4d4d/838383" width={1433} height={1200} alt="Testimonials Image" />
                       </div>
                     </div>
                   </div>

@@ -6,21 +6,22 @@ import RotatingButton from "../RotatingButton";
 import VideoModal from "../VideoModal";
 import TitleMarquee from "./TitleMarquee";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HeroBanner({
   images = [
     {
-      src: "img/hero/banner-icon-1.webp",
+      src: "/img/hero/banner-icon-1.webp",
       animationClass: "mxd-pulse",
       wrapperClass: "image-01",
     },
     {
-      src: "img/hero/banner-icon-2.webp",
+      src: "/img/hero/banner-icon-2.webp",
       animationClass: "mxd-move",
       wrapperClass: "image-02",
     },
     {
-      src: "img/hero/banner-icon-3.webp",
+      src: "/img/hero/banner-icon-3.webp",
       animationClass: "mxd-rotate",
       wrapperClass: "image-03",
     },
@@ -35,7 +36,7 @@ export default function HeroBanner({
     href: "#projects",
     text: "Scroll for More * Scroll for More * Scroll for More * ",
     sizeClass: "btn-rotating-120-160",
-    image: "img/icons/rotating-icon.webp",
+    image: "/img/icons/rotating-icon.webp",
   },
 
   socials = [
@@ -66,7 +67,7 @@ export default function HeroBanner({
                 <div className="mxd-hero-01__images mxd-floating-img">
                   {images.map((img, index) => (
                     <div key={index} className={`hero-01-image ${img.wrapperClass} mxd-floating-img__item loading__fade`}>
-                      <img className={img.animationClass} src={img.src} alt="Hero Image" />
+                      <Image className={img.animationClass} src={img.src} width={700} height={687} alt="Hero Image" />
                     </div>
                   ))}
                 </div>

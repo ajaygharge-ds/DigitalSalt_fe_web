@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import {useLayoutEffect, useRef} from "react";
 
 export default function HoverRevealItem({children, previewImage, revealSize = "280x340", className = ""}) {
@@ -43,7 +44,7 @@ export default function HoverRevealItem({children, previewImage, revealSize = "2
     <div ref={wrapperRef} className={`hover-reveal__item ${className}`}>
       {/* ✅ Hover Reveal Box */}
       <div ref={revealRef} className={`hover-reveal__content hover-reveal-${revealSize}`} style={{opacity: 0, position: "fixed", pointerEvents: "none"}}>
-        <img ref={imageRef} className="hover-reveal__image" src={previewImage} alt="Preview" />
+        <Image ref={imageRef} className="hover-reveal__image" src={previewImage} width={600} height={700} alt="Preview" />
       </div>
       {children}
     </div>

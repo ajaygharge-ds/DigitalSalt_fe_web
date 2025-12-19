@@ -3,6 +3,7 @@ import {useLayoutEffect, useRef} from "react";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import Link from "next/link";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 export default function LeadersSection({title, description, ctaText, ctaLink, members = []}) {
@@ -62,7 +63,7 @@ export default function LeadersSection({title, description, ctaText, ctaLink, me
                         <div key={i} className="col-12 col-md-6 mxd-team-cards__item mxd-grid-item no-margin-desktop animate-card-3">
                           <div className="mxd-team-cards__media anim-uni-in-up">
                             <div className="mxd-team-cards__photo">
-                              <img src={member.image} alt={member.name} />
+                              <Image src={member.image} width={800} height={920} alt={member.name} />
                             </div>
                             <div className="mxd-team-cards__socials">
                               {member.socials.map((s, j) => (
@@ -120,7 +121,7 @@ export default function LeadersSection({title, description, ctaText, ctaLink, me
                           <div key={i} className="col-12 col-md-4 mxd-team-cards__item mxd-grid-item padding-bottom-mobile animate-card-3">
                             <div className="mxd-team-cards__media anim-uni-in-up">
                               <div className="mxd-team-cards__photo">
-                                <img src={member.image} alt={member.name} />
+                                <Image src={member.image} width={800} height={920} alt={member.name} />
                               </div>
                               <div className="mxd-team-cards__socials">
                                 {member.socials.map((s, j) => (

@@ -4,6 +4,7 @@ import {useLayoutEffect, useRef} from "react";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import CommonIcon from "./common/icons/CommonIcon";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,7 +68,7 @@ export default function HeroTitleMarquee({text = "the power of imagination", ima
       <div className="mxd-hero-02-marquee">
         {/* ✅ CENTER IMAGE */}
         <div className="mxd-hero-02-marquee__image loading__item">
-          <img className="mxd-move" src={image} alt="Hero Image" />
+          <Image className="mxd-move" src={image} width={700} height={704} alt="Hero Image" />
         </div>
 
         {/* ✅ MARQUEE LINE */}

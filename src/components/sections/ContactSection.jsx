@@ -5,6 +5,7 @@ import Link from "next/link";
 import gsap from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import SplitType from "split-type";
+import Image from "next/image";
 
 export default function ContactSection() {
   const sectionRef = useRef(null);
@@ -62,7 +63,7 @@ export default function ContactSection() {
                 <div className="mxd-promo__content">
                   <p className="mxd-promo__title anim-uni-in-up">
                     <span className="mxd-promo__icon">
-                      <img src="img/contact/top.webp" alt="Icon" />
+                      <Image src="/img/contact/top.webp" width={300} height={300} alt="Icon" />
                     </span>
                     <span className="mxd-promo__caption reveal-type">Let's talk about your project!</span>
                   </p>
@@ -74,8 +75,8 @@ export default function ContactSection() {
                   </div>
                 </div>
                 <div className="mxd-promo__images">
-                  <img className="promo-image promo-image-1" src="img/contact/large.webp" alt="Image" />
-                  <img className="promo-image promo-image-2" src="img/contact/small.webp" alt="Image" />
+                  <Image className="promo-image promo-image-1" src="/img/contact/large.webp" width={800} height={912} alt="Image" />
+                  <Image className="promo-image promo-image-2" src="/img/contact/small.webp" width={600} height={600} alt="Image" />
                 </div>
               </div>
             </div>

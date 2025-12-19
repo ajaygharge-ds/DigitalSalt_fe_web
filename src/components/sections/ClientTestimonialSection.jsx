@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import {useLayoutEffect, useRef} from "react";
 import Swiper from "swiper";
@@ -110,10 +111,10 @@ export default function ClientTestimonialSection({slides = []}) {
                             <div className="mxd-testimonials-card__content">
                               <div className="mxd-testimonials-card__media anim-uni-in-up">
                                 <div className="mxd-testimonials-card__photo">
-                                  <img src={slide.photo} alt={slide.name} />
+                                  <Image src={slide.photo} width={300} height={300} alt={slide.name} />
                                 </div>
                                 <div className="mxd-testimonials-card__company">
-                                  <img src={slide.companyLogo} alt="Company Logo" />
+                                  <Image src={slide.companyLogo} width={300} height={300} alt="Company Logo" />
                                 </div>
                               </div>
 

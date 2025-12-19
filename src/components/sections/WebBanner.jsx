@@ -35,8 +35,7 @@ export default function WebBanner() {
                       <div className="mxd-avatars-group align-right">
                         <div className="mxd-avatars align-right">
                           <div className="mxd-avatars__item small">
-                            {/* <Image src="https://dummyimage.com/300x300/5d5d5d/838383" width={300} height={300} alt="Avatar" /> */}
-                            <img src="https://dummyimage.com/300x300/5d5d5d/838383" alt="Avatar" />
+                            <Image src="https://dummyimage.com/300x300/5d5d5d/838383" width={300} height={300} alt="Avatar" />
                           </div>
 
                           <div className="mxd-avatars__item small bg-base-opp">
@@ -44,8 +43,7 @@ export default function WebBanner() {
                           </div>
 
                           <div className="mxd-avatars__item small">
-                            {/* <Image src="https://dummyimage.com/300x300/5d5d5d/838383" width={300} height={300} alt="Avatar" /> */}
-                            <img src="https://dummyimage.com/300x300/5d5d5d/838383" alt="Avatar" />
+                            <Image src="https://dummyimage.com/300x300/5d5d5d/838383" width={300} height={300} alt="Avatar" />
                           </div>
                         </div>
 
@@ -67,8 +65,7 @@ export default function WebBanner() {
           <div className="mxd-hero-05__bottom mxd-grid-item no-margin">
             {/* WORK IMAGE BLOCK */}
             <div className="mxd-hero-05__worksblock loading__item">
-              {/* <Image className="mxd-move" src="https://dummyimage.com/800x800/4d4d4d/838383" width={800} height={800} alt="Hero" /> */}
-              <img className="mxd-move" src="https://dummyimage.com/800x800/4d4d4d/838383" alt="Hero" />
+              <Image className="mxd-move" src="https://dummyimage.com/800x800/4d4d4d/838383" width={800} height={800} alt="Hero" />
               <div className="hero-05-worksblock__descr">
                 <p className="t-large t-caption t-bright">Blending creativity with practical design</p>
                 <Link className="btn btn-anim btn-default btn-outline slide-right-up" href="portfolio">

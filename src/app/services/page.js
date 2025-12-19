@@ -5,6 +5,7 @@ import InnerPageHeadline from "@/components/sections/InnerPageHeadline";
 import StatsCardsSection from "@/components/sections/StatsCardsSection";
 import VideoDivider from "@/components/sections/VideoDivider";
 import Head from "next/head";
+import Image from "next/image";
 
 const statsData = [
   {
@@ -105,7 +106,7 @@ export default function Services() {
                 <div className="mxd-services-list__item hover-reveal__item">
                   <div className="mxd-services-list__border anim-uni-in-up" />
                   <div className="hover-reveal__content hover-reveal-360x440">
-                    <img className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" alt="Rayo Image" />
+                    <Image className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" width={360} height={440} alt="Rayo Image" />
                   </div>
                   <div className="mxd-services-list__inner">
                     <div className="container-fluid px-0">
@@ -159,7 +160,7 @@ export default function Services() {
                 <div className="mxd-services-list__item hover-reveal__item">
                   <div className="mxd-services-list__border anim-uni-in-up" />
                   <div className="hover-reveal__content hover-reveal-360x440">
-                    <img className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" alt="Rayo Image" />
+                    <Image className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" width={360} height={440} alt="Rayo Image" />
                   </div>
                   <div className="mxd-services-list__inner">
                     <div className="container-fluid px-0">
@@ -210,7 +211,7 @@ export default function Services() {
                 <div className="mxd-services-list__item hover-reveal__item">
                   <div className="mxd-services-list__border anim-uni-in-up" />
                   <div className="hover-reveal__content hover-reveal-360x440">
-                    <img className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" alt="Rayo Image" />
+                    <Image className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" width={360} height={440} alt="Rayo Image" />
                   </div>
                   <div className="mxd-services-list__inner">
                     <div className="container-fluid px-0">
@@ -255,7 +256,7 @@ export default function Services() {
                 <div className="mxd-services-list__item hover-reveal__item">
                   <div className="mxd-services-list__border anim-uni-in-up" />
                   <div className="hover-reveal__content hover-reveal-360x440">
-                    <img className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" alt="Rayo Image" />
+                    <Image className="hover-reveal__image" src="https://dummyimage.com/360x440/5d5d5d/838383" width={360} height={440} alt="Rayo Image" />
                   </div>
                   <div className="mxd-services-list__inner">
                     <div className="container-fluid px-0">

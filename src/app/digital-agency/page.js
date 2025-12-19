@@ -394,8 +394,7 @@ export default function DigitalAgency() {
                             </div>
 
                             <div className="mxd-cpb-list__image anim-uni-in-up">
-                              {/* <Image src={item.image} width={1200} height={800} alt="" /> */}
-                              <img src={item.image} alt="" />
+                              <Image src={item.image} width={1200} height={800} alt="" />
                             </div>
 
                             {/* <div className="mxd-cpb-list__divider anim-uni-in-up" /> */}
