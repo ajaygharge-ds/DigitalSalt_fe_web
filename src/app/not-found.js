@@ -32,7 +32,6 @@ export default function Error() {
       <div className="mxd-floating-img floating-bg">
         <div className="mxd-floating-img__item mxd-move">
           <Image src="https://dummyimage.com/900x900/5d5d5d/838383" width={900} height={900} alt="Image" />
-          {/* <img src="https://dummyimage.com/900x900/5d5d5d/838383" alt="Image" /> */}
         </div>
       </div>
       <main id="mxd-page-content" className="mxd-page-content">

@@ -46,56 +46,56 @@ export default function PartnersGrid() {
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/mozilla.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/mozilla.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/envato.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/envato.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/behance.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/behance.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/dribbble.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/dribbble.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/codeninja.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/codeninja.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/udemy.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/udemy.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/angular.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/angular.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <Link className="mxd-partners-cards__inner" href="#0">
                       <div className="mxd-partners-cards__logo">
-                        <Image src="img/brands/ghostgaming.svg" width={330} height={250} alt="Partner Logo" />
+                        <Image src="/img/brands/ghostgaming.svg" width={330} height={250} alt="Partner Logo" />
                       </div>
                     </Link>
                   </div>

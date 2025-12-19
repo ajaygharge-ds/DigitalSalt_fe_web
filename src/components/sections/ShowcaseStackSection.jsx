@@ -35,7 +35,7 @@ export default function ShowcaseStackSection({showcases = []}) {
                             </div>
                             <div className="mxd-preview-hover">
                               <i className="mxd-preview-hover__icon icon-small">
-                                <Image src="img/icons/icon-eye.svg" width={38} height={21} alt="Eye Icon" />
+                                <Image src="/img/icons/icon-eye.svg" width={38} height={21} alt="Eye Icon" />
                               </i>
                             </div>
                           </Link>

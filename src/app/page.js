@@ -24,28 +24,28 @@ const detailsItems = [
     title: "Some article on Medium",
     year: "2025",
     tags: ["UI/UX", "Development"],
-    preview: "img/hover/1.webp",
+    preview: "/img/hover/1.webp",
     link: "/project-details",
   },
   {
     title: "Awwwards nomination",
     year: "2024",
     tags: ["UI/UX", "Frontend"],
-    preview: "img/hover/2.webp",
+    preview: "/img/hover/2.webp",
     link: "/project-details",
   },
   {
     title: "Behance curated work",
     year: "2024",
     tags: ["Illustrations", "Graphic design"],
-    preview: "img/hover/3.webp",
+    preview: "/img/hover/3.webp",
     link: "/project-details",
   },
   {
     title: "Article on Medium",
     year: "2024",
     tags: ["UI/UX", "Frontend"],
-    preview: "img/hover/4.webp",
+    preview: "/img/hover/4.webp",
     link: "/project-details",
   },
 ];
@@ -223,8 +223,8 @@ export default function Home() {
               btnClass: "btn-additional",
               tagStyle: "tag-outline-opposite",
               opposite: true,
-              imageSmall: "img/stack/stack-mobile-1.webp",
-              imageLarge: "img/stack/stack-desktop-1.webp",
+              imageSmall: "/img/stack/stack-mobile-1.webp",
+              imageLarge: "/img/stack/stack-desktop-1.webp",
             },
             {
               title: (
@@ -241,8 +241,8 @@ export default function Home() {
               btnClass: "btn-base",
               tagStyle: "tag-outline-opposite",
               opposite: true,
-              imageSmall: "img/stack/stack-mobile-2.webp",
-              imageLarge: "img/stack/stack-desktop-2.webp",
+              imageSmall: "/img/stack/stack-mobile-2.webp",
+              imageLarge: "/img/stack/stack-desktop-2.webp",
             },
             {
               title: (
@@ -259,8 +259,8 @@ export default function Home() {
               btnClass: "btn-opposite",
               tagStyle: "tag-outline",
               opposite: false,
-              imageSmall: "img/stack/stack-mobile-3.webp",
-              imageLarge: "img/stack/stack-desktop-3.webp",
+              imageSmall: "/img/stack/stack-mobile-3.webp",
+              imageLarge: "/img/stack/stack-desktop-3.webp",
             },
             {
               title: (
@@ -278,8 +278,8 @@ export default function Home() {
               btnClass: "btn-additional",
               tagStyle: "tag-outline-opposite",
               opposite: true,
-              imageSmall: "img/stack/stack-mobile-4.webp",
-              imageLarge: "img/stack/stack-desktop-4.webp",
+              imageSmall: "/img/stack/stack-mobile-4.webp",
+              imageLarge: "/img/stack/stack-desktop-4.webp",
             },
           ]}
         />
@@ -376,7 +376,7 @@ export default function Home() {
         <ClientTestimonialSection
           slides={[
             {
-              photo: "img/testimonials/1.webp",
+              photo: "/img/testimonials/1.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "The Rayo team nailed it! They understood our vision.",
               projectLink: "project-details",
@@ -385,7 +385,7 @@ export default function Home() {
               company: "The Way",
             },
             {
-              photo: "img/testimonials/2.webp",
+              photo: "/img/testimonials/2.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "Amazing experience working with Rayo!",
               projectLink: "project-details",
@@ -394,7 +394,7 @@ export default function Home() {
               company: "Instant Design",
             },
             {
-              photo: "img/testimonials/3.webp",
+              photo: "/img/testimonials/3.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "The Rayo team nailed it! They understood our vision.",
               projectLink: "project-details",
@@ -403,7 +403,7 @@ export default function Home() {
               company: "The Way",
             },
             {
-              photo: "img/testimonials/4.webp",
+              photo: "/img/testimonials/4.webp",
               companyLogo: "/img/brands/envato.svg",
               text: "Amazing experience working with Rayo!",
               projectLink: "project-details",
