@@ -1,6 +1,15 @@
 import GlobalAnimations from "@/components/animations/GlobalAnimations";
 import GlobalStackCards from "@/components/animations/GlobalStackCards";
+import AndroidIcon from "@/components/common/icons/AndroidIcon";
+import AngularIcon from "@/components/common/icons/AngularIcon";
 import CommonIcon from "@/components/common/icons/CommonIcon";
+import CSharpIcon from "@/components/common/icons/CSharpIcon";
+import DotNetIcon from "@/components/common/icons/DotNetIcon";
+import IosIcon from "@/components/common/icons/IosIcon";
+import JsIcon from "@/components/common/icons/JsIcon";
+import PhpIcon from "@/components/common/icons/PhpIcon";
+import ReactIcon from "@/components/common/icons/ReactIcon";
+import VueIcon from "@/components/common/icons/VueIcon";
 import Footer from "@/components/Footer";
 import HoverRevealItem from "@/components/HoverRevealItem";
 import RotatingButton from "@/components/RotatingButton";
@@ -15,6 +24,8 @@ import PinnedProjectsSection from "@/components/sections/PinnedProjectsSection";
 import ProjectMarquee from "@/components/sections/ProjectsMarquee";
 import ServicesStackSection from "@/components/sections/ServicesStackSection";
 import StatsCardsSection from "@/components/sections/StatsCardsSection";
+import StatsSimpleSection from "@/components/sections/StatsSimpleSection";
+import TechStackSection from "@/components/sections/TechStackSection";
 import UniversalContentBlock from "@/components/sections/UniversalContentBlock";
 import Head from "next/head";
 import Link from "next/link";
@@ -200,7 +211,6 @@ export default function Home() {
           buttonText="Say Hello"
           buttonHref="/contact"
         />
-
         {/* Section - About End */}
         {/* Section - Statistics Cards Start */}
         <StatsCardsSection stats={statsData} />
@@ -211,6 +221,105 @@ export default function Home() {
         {/* Section - Projects Pinned #01 Start */}
         <PinnedProjectsSection />
         {/* Section - Projects Pinned #01 End */}
+        <TechStackSection
+          title={
+            <>
+              Our tech
+              <br />
+              stack:
+            </>
+          }
+          items={[
+            {
+              label: "Angular",
+              icon: <AngularIcon />,
+            },
+            {
+              label: "React",
+              icon: <ReactIcon />,
+            },
+            {
+              label: "Vue.js",
+              icon: <VueIcon />,
+            },
+            {
+              label: "PHP",
+              icon: <PhpIcon />,
+            },
+            {
+              label: "C#",
+              icon: <CSharpIcon />,
+            },
+            {
+              label: "JS",
+              icon: <JsIcon />,
+            },
+            {
+              label: "Android",
+              icon: <AndroidIcon />,
+            },
+            {
+              label: "iOS",
+              icon: <IosIcon />,
+            },
+            {
+              label: ".NET",
+              icon: <DotNetIcon />,
+            },
+          ]}
+        />
+        <MarqueeSection sectionClass="mxd-section padding-mtext mobile-title" items={["Understanding Your Industry", "Understanding Your Industry"]} />
+        <StatsSimpleSection
+          stats={[
+            {
+              value: 50,
+              suffix: "+",
+              label: (
+                <>
+                  Happy clients who
+                  <br />
+                  trust my work
+                </>
+              ),
+              image: `/img/stats/simple/icon-1.webp`,
+            },
+            {
+              value: 80,
+              suffix: "%",
+              label: (
+                <>
+                  Clients come back for
+                  <br /> new projects
+                </>
+              ),
+              image: `/img/stats/simple/icon-2.webp`,
+            },
+            {
+              value: 5,
+              suffix: "+",
+              label: (
+                <>
+                  Years of professional
+                  <br />
+                  experience
+                </>
+              ),
+              image: `/img/stats/simple/icon-3.webp`,
+            },
+            {
+              value: 70,
+              suffix: "+",
+              label: (
+                <>
+                  Successfully
+                  <br />
+                  completed projects
+                </>
+              ),
+              image: `/img/stats/simple/icon-4.webp`,
+            },
+          ]}
+        />
         {/* Section - Services/Features Stacking Cards Start */}
         <ServicesStackSection
           services={[
@@ -285,7 +394,7 @@ export default function Home() {
         />
         {/* Section - Services/Features Stacking Cards End */}
         {/* Section - Approach and Philosophy Start */}
-        <ApproachSection />
+        {/* <ApproachSection />  //-- Currently Disabled */}
         {/* Section - Approach and Philosophy End */}
         {/* Section - Marquee Images Two Lines Start */}
         <ProjectMarquee />
